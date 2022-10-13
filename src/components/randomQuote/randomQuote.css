@@ -1,0 +1,34 @@
+#quote-box {
+  margin: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 40%;
+}
+
+#quote-box h3 {
+  text-align: right;
+  margin: 1rem 0;
+}
+
+#links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#links #new-quote,
+#tweet-quote {
+  background-color: lightblue;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+#links #new-quote:hover,
+#tweet-quote:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+#links img {
+  width: 1.8rem;
+}
